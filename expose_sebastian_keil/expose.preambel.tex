@@ -1,0 +1,88 @@
+% !TEX root = "/expose_sebastian_keil/expose.tex"
+
+\documentclass[12pt, oneside, paper=A4, DIV=15, ngerman]{scrartcl}
+% \usepackage[english]{babel}
+
+%for google fonts
+\usepackage{parskip}
+\usepackage{fontspec}
+\setmainfont{Roboto}[
+    Path=./font/Roboto/,
+    Extension = .ttf,
+    UprightFont=*-Regular,
+    BoldFont=*-Bold,
+    ItalicFont=*-Italic,
+    BoldItalicFont=*-BoldItalic
+    ]
+\usepackage{float}
+
+% \usepackage{fancyhdr}
+% \pagestyle{fancy}
+% \fancyhf{} % Clear all header and footer fields
+% %\renewcommand{\headrulewidth}{0pt} % No horizontal line in header
+% \fancyhead[C]{"Comparative Analysis of the BIWaM and ODOG Models: Identifying structural and behavioural differences and parallels" TBD} % Centered header text
+% \newcommand{\helv}{\fontsize{7}{9}\selectfont}
+
+
+% Setzt die Einrückung auf 2em, du kannst diesen Wert anpassen
+\setlength{\parindent}{2em} 
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx} % For including images
+\usepackage{caption} % For caption customization
+\DeclareCaptionFormat{myformat}{\fontsize{10}{10}\selectfont#1#2#3}
+\captionsetup{format=myformat}
+
+
+% Schriftart
+%\usepackage{arev}
+%\usepackage[T1]{fontenc}
+
+%Schriftart
+%\usepackage{libertine}
+%\usepackage{libertinust1math}
+%\usepackage[T1]{fontenc}
+
+% Mathe, Symbole, Einheitendarstellung, Chemie
+\usepackage{siunitx}  
+
+% Typographie
+\usepackage[auto]{microtype}
+
+% Autorenangaben
+\usepackage[german]{authblk}
+\renewcommand\Authand{, }
+\renewcommand\Authands{, }
+
+%Paket zur Erstellung von Gantt-Charts
+\usepackage{pgfgantt}
+
+% Darstellung der Literaturangaben
+\usepackage[
+backend=biber,
+style=apa,
+sortcites=true,
+sorting=nyt,
+% citestyle=apa,
+% maxbibnames=2,
+% firstinits=true
+]{biblatex}
+
+\setlength\bibitemsep{2\itemsep}
+
+
+% Speicherort der Literaturangaben (*.bib Datei)
+\bibliography{literatur/refs}
+
+% pdf-Einstellungen
+% Angaben ggf. aktualisieren!
+\usepackage[
+pdftitle={},
+pdfsubject={},
+pdfauthor={},
+pdfkeywords={},  
+% Links nicht einrahmen
+hidelinks
+]{hyperref}

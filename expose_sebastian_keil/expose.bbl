@@ -1,0 +1,1391 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/apasortcite//global/global}
+    \entry{Adelson1996}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d8bf8701029730824b2008a01e9caf72}{%
+           family={Adelson},
+           familyi={A\bibinitperiod},
+           given={E\bibnamedelima H},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43177b561ca25473b7ef5a976ad2894a}{%
+           family={Pentland},
+           familyi={P\bibinitperiod},
+           given={A\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{c26655b477eb18769f623d0b458ffa11}
+      \strng{fullhash}{c26655b477eb18769f623d0b458ffa11}
+      \strng{bibnamehash}{c26655b477eb18769f623d0b458ffa11}
+      \strng{authorbibnamehash}{c26655b477eb18769f623d0b458ffa11}
+      \strng{authornamehash}{c26655b477eb18769f623d0b458ffa11}
+      \strng{authorfullhash}{c26655b477eb18769f623d0b458ffa11}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The perception of shading and reflectance}
+      \field{volume}{1}
+      \field{year}{1996}
+      \true{nocite}
+      \field{pages}{409\bibrangedash 423}
+      \range{pages}{15}
+    \endentry
+    \entry{adelson1995checkershadow}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dd5f6f633f533723c6079fcfb892c18f}{%
+           family={Adelson},
+           familyi={A\bibinitperiod},
+           given={Edward\bibnamedelima H},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{fullhash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{bibnamehash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{authorbibnamehash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{authornamehash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{authorfullhash}{dd5f6f633f533723c6079fcfb892c18f}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Checkershadow illusion}
+      \field{year}{1995}
+      \verb{urlraw}
+      \verb https://persci.mit.edu/publications
+      \endverb
+      \verb{url}
+      \verb https://persci.mit.edu/publications
+      \endverb
+    \endentry
+    \entry{adelson2000}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dd5f6f633f533723c6079fcfb892c18f}{%
+           family={Adelson},
+           familyi={A\bibinitperiod},
+           given={Edward\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{fullhash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{bibnamehash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{authorbibnamehash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{authornamehash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{authorfullhash}{dd5f6f633f533723c6079fcfb892c18f}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The New Cognitive Neurosciences, 2nd ed., M. Gazzaniga, ed. Cambridge, MA: MIT Press,}
+      \field{title}{Lightness Perception and Lightness Illusions}
+      \field{year}{2000}
+      \field{pages}{339\bibrangedash 351}
+      \range{pages}{13}
+    \endentry
+    \entry{arend1993}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ce0afbb9cbc4d39b5572a10e6ed4178e}{%
+           family={Arend},
+           familyi={A\bibinitperiod},
+           given={Lawrence\bibnamedelima E},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce0afbb9cbc4d39b5572a10e6ed4178e}
+      \strng{fullhash}{ce0afbb9cbc4d39b5572a10e6ed4178e}
+      \strng{bibnamehash}{ce0afbb9cbc4d39b5572a10e6ed4178e}
+      \strng{authorbibnamehash}{ce0afbb9cbc4d39b5572a10e6ed4178e}
+      \strng{authornamehash}{ce0afbb9cbc4d39b5572a10e6ed4178e}
+      \strng{authorfullhash}{ce0afbb9cbc4d39b5572a10e6ed4178e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Perception and Psychophysics}
+      \field{title}{Lightness, brightness, and brightness contrast}
+      \field{year}{1993}
+      \field{pages}{457\bibrangedash 468}
+      \range{pages}{12}
+    \endentry
+    \entry{Betz2015}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d0deeeac3528dad6f9c42967b2b7ff6d}{%
+           family={Betz},
+           familyi={B\bibinitperiod},
+           given={Torsten},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cdac55fcb6989465775a9ede1f64787}{%
+           family={Shapley},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20afa03815f57165428b0c34ca89aafc}{%
+           family={Wichmann},
+           familyi={W\bibinitperiod},
+           given={Felix\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1cb203084c0f2011c751a486df0c484}{%
+           family={Maertens},
+           familyi={M\bibinitperiod},
+           given={Marianne},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Association for Research in Vision}%
+        {Ophthalmology Inc.}%
+      }
+      \strng{namehash}{62d652087c1392a4f1ecf0397c477b7e}
+      \strng{fullhash}{27ad52a30703a7939fbd28071769d1c3}
+      \strng{bibnamehash}{27ad52a30703a7939fbd28071769d1c3}
+      \strng{authorbibnamehash}{27ad52a30703a7939fbd28071769d1c3}
+      \strng{authornamehash}{62d652087c1392a4f1ecf0397c477b7e}
+      \strng{authorfullhash}{27ad52a30703a7939fbd28071769d1c3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Spatial filtering models are currently a widely accepted mechanistic account of human lightness perception. Their popularity can be ascribed to two reasons: They correctly predict how human observers perceive a variety of lightness illusions, and the processing steps involved in the models bear an apparent resemblance with known physiological mechanisms at early stages of visual processing. Here, we tested the adequacy of these models by probing their response to stimuli that have been modified by adding narrowband noise. Psychophysically, it has been shown that noise in the range of one to five cycles per degree (cpd) can drastically reduce the strength of some lightness phenomena, while noise outside this range has little or no effect on perceived lightness. Choosing White's illusion (White, 1979) as a test case, we replicated and extended the psychophysical results, and found that none of the spatial filtering models tested was able to reproduce the spatial frequency specific effect of narrowband noise. We discuss the reasons for failure for each model individually, but we argue that the failure is indicative of the general inadequacy of this class of spatial filtering models. Given the present evidence we do not believe that spatial filtering models capture the mechanisms that are responsible for producing many of the lightness phenomena observed in human perception. Instead we think that our findings support the idea that low-level contributions to perceived lightness are primarily determined by the luminance contrast at surface boundaries.}
+      \field{issn}{15347362}
+      \field{issue}{14}
+      \field{journaltitle}{Journal of Vision}
+      \field{title}{Noise masking of White's illusion exposes the weakness of current spatial filtering models of lightness perception}
+      \field{volume}{15}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1167/15.14.1
+      \endverb
+    \endentry
+    \entry{Blakeslee1997}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=31c2e7d8defce2901fdf58fb4b067ec0}{%
+           family={Blakeslee},
+           familyi={B\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ba53214f5e0f9df05caf5c0a6929a28}{%
+           family={Mccourt},
+           familyi={M\bibinitperiod},
+           given={Mark\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{fullhash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{bibnamehash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{authorbibnamehash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{authornamehash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{authorfullhash}{75c86a17481e4483c874eb2f0f7652d6}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vision Research}
+      \field{title}{Similar mechanisms underlie simultaneous brightness contrast and grating induction}
+      \field{year}{1997}
+      \field{pages}{4361\bibrangedash 4377}
+      \range{pages}{17}
+    \endentry
+    \entry{Blakeslee1999}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=31c2e7d8defce2901fdf58fb4b067ec0}{%
+           family={Blakeslee},
+           familyi={B\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ba53214f5e0f9df05caf5c0a6929a28}{%
+           family={Mccourt},
+           familyi={M\bibinitperiod},
+           given={Mark\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{fullhash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{bibnamehash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{authorbibnamehash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{authornamehash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{authorfullhash}{75c86a17481e4483c874eb2f0f7652d6}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Blakeslee and McCourt ((1997) Vision Research, 37, 2849-2869) demonstrated that a multiscale array of two-dimensional difference-of-Gaussian (DOG) filters provided a simple but powerful model for explaining a number of seemingly complex features of grating induction (GI), while simultaneously encompassing salient features of brightness induction in simultaneous brightness contrast (SBC), brightness assimilation and Hermann Grid stimuli. The DOG model (and isotropic contrast models in general) cannot, however, account for another important group of brightness effects which includes the White effect (White (1979) Perception, 8, 413-416) and the demonstrations of Todorovic ((1997) Perception, 26, 379-395). This paper introduces an oriented DOG (ODOG) model which differs from the DOG model in that the filters are anisotropic and their outputs are pooled nonlinearly. The ODOG model qualitatively predicts the appearance of the test patches in the White effect, the Todorovic demonstration, GI and SBC, while quantitatively predicting the relative magnitudes of these brightness effects as measured psychophysically using brightness matching. The model also accounts for both the smooth transition in test patch brightness seen in the White effect (White & White (1985) Vision Research, 25, 1331-1335) when the relative phase of the test patch is varied relative to the inducing grating, and for the spatial variation of brightness across the test patch as measured using point-by-point brightness matching. Finally, the model predicts intensive aspects of brightness induction measured in a series of Todorovic stimuli as the arms of the test crosses are lengthened (Pessoa, Baratoff, Neumann & Todorokov (1998) In6estigati6e Ophthalmol-ogy and Visual Science, Supplement, 39, S159), but fails in one condition. Although it is concluded that higher-level perceptual grouping factors may play a role in determining brightness in this instance, in general the psychophysical results and ODOG modeling argue strongly that the induced brightness phenomena of SBC, GI, the White effect and the Todorovic demonstration, primarily reflect early-stage cortical filtering operations in the visual system.}
+      \field{journaltitle}{Vision Research}
+      \field{title}{A multiscale spatial filtering account of the White effect, simultaneous brightness contrast and grating induction}
+      \field{volume}{39}
+      \field{year}{1999}
+      \field{pages}{4361\bibrangedash 4377}
+      \range{pages}{17}
+      \verb{urlraw}
+      \verb www.elsevier.com
+      \endverb
+      \verb{url}
+      \verb www.elsevier.com
+      \endverb
+      \keyw{Brightness induction,Grating induction,Simultaneous brightness contrast,White effect}
+    \endentry
+    \entry{Brainard2003-BRACCD-2}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3b743fc56f1bb1dfa52d12f2b8d65e85}{%
+           family={Brainard},
+           familyi={B\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=d9095f96ce073fe2904f0690151fc333}{%
+           family={Longere},
+           familyi={L\bibinitperiod},
+           given={Kraft\bibnamedelima \&},
+           giveni={K\bibinitperiod\bibinitdelim \\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=b0a4f3ad976aaad44b71bc373a812a63}{%
+           family={Mausfeld},
+           familyi={M\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6af76a7a9b827a20afc70a0347925086}{%
+           family={Heyer},
+           familyi={H\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{2684602fd3314a7252de7b9ae3fc6603}
+      \strng{fullhash}{2684602fd3314a7252de7b9ae3fc6603}
+      \strng{bibnamehash}{2684602fd3314a7252de7b9ae3fc6603}
+      \strng{authorbibnamehash}{2684602fd3314a7252de7b9ae3fc6603}
+      \strng{authornamehash}{2684602fd3314a7252de7b9ae3fc6603}
+      \strng{authorfullhash}{2684602fd3314a7252de7b9ae3fc6603}
+      \strng{editorbibnamehash}{faaae94acebb755f4a28d6eb26d869f1}
+      \strng{editornamehash}{faaae94acebb755f4a28d6eb26d869f1}
+      \strng{editorfullhash}{faaae94acebb755f4a28d6eb26d869f1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Colour Perception: Mind and the Physical World}
+      \field{title}{Colour Constancy: Developing Empirical Tests of Computational Models}
+      \field{year}{2003}
+      \true{nocite}
+      \field{pages}{308\bibrangedash 326}
+      \range{pages}{19}
+    \endentry
+    \entry{Gundersen2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=78f7342d089d08cc6586f50acc74d0d5}{%
+           family={Gundersen},
+           familyi={G\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{78f7342d089d08cc6586f50acc74d0d5}
+      \strng{fullhash}{78f7342d089d08cc6586f50acc74d0d5}
+      \strng{bibnamehash}{78f7342d089d08cc6586f50acc74d0d5}
+      \strng{authorbibnamehash}{78f7342d089d08cc6586f50acc74d0d5}
+      \strng{authornamehash}{78f7342d089d08cc6586f50acc74d0d5}
+      \strng{authorfullhash}{78f7342d089d08cc6586f50acc74d0d5}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{From Convolution to Neural Network}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://gregorygundersen.com/blog/2017/02/24/cnns/
+      \endverb
+      \verb{url}
+      \verb https://gregorygundersen.com/blog/2017/02/24/cnns/
+      \endverb
+      \keyw{blog,conolution}
+    \endentry
+    \entry{Hanson1978}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=efccf6e4cc79426082c73b6d27584c9b}{%
+           family={Hanson},
+           familyi={H\bibinitperiod},
+           given={Allen\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c6f2304f042dd47074ccd52a9b70994}{%
+           family={Riseman},
+           familyi={R\bibinitperiod},
+           given={Edward\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{eb244c5a3584ac2130f8c7b8f0ff09f2}
+      \strng{fullhash}{eb244c5a3584ac2130f8c7b8f0ff09f2}
+      \strng{bibnamehash}{eb244c5a3584ac2130f8c7b8f0ff09f2}
+      \strng{authorbibnamehash}{eb244c5a3584ac2130f8c7b8f0ff09f2}
+      \strng{authornamehash}{eb244c5a3584ac2130f8c7b8f0ff09f2}
+      \strng{authorfullhash}{eb244c5a3584ac2130f8c7b8f0ff09f2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0123235502}
+      \field{journaltitle}{Computer vision systems}
+      \field{title}{Recovering Intrinsic Scene Characteristics from Images}
+      \field{year}{1977}
+      \true{nocite}
+    \endentry
+    \entry{Kingdom1997}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f76421ef3f448745bc7f0c87adcdfc73}{%
+           family={Kingdom},
+           familyi={K\bibinitperiod},
+           given={Frederick\bibnamedelima A.A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{fullhash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{bibnamehash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{authorbibnamehash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{authornamehash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{authorfullhash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Perception}
+      \field{note}{PMID: 9474338}
+      \field{number}{6}
+      \field{title}{Simultaneous Contrast: The Legacies of Hering and Helmholtz}
+      \field{volume}{26}
+      \field{year}{1997}
+      \field{pages}{673\bibrangedash 677}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1068/p260673
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1068/p260673
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1068/p260673
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1068/p260673
+      \endverb
+    \endentry
+    \entry{Kingdom2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f76421ef3f448745bc7f0c87adcdfc73}{%
+           family={Kingdom},
+           familyi={K\bibinitperiod},
+           given={Frederick\bibnamedelima A.A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{fullhash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{bibnamehash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{authorbibnamehash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{authornamehash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{authorfullhash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MIT Press}
+      \field{title}{Brightness and Lightness}
+      \field{year}{2014}
+      \field{pages}{499\bibrangedash 509}
+      \range{pages}{11}
+    \endentry
+    \entry{Murray2021}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fec13194324b2d26a645191e5d378a84}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelima F},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fec13194324b2d26a645191e5d378a84}
+      \strng{fullhash}{fec13194324b2d26a645191e5d378a84}
+      \strng{bibnamehash}{fec13194324b2d26a645191e5d378a84}
+      \strng{authorbibnamehash}{fec13194324b2d26a645191e5d378a84}
+      \strng{authornamehash}{fec13194324b2d26a645191e5d378a84}
+      \strng{authorfullhash}{fec13194324b2d26a645191e5d378a84}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Lightness perception is the perception of achromatic surface colors: black, white, and shades of grey. Lightness has long been a central research topic in experimental psychology, as perceiving surface color is an important visual task but also a difficult one due to the deep ambiguity of retinal images. In this article, I review psychophysical work on lightness perception in complex scenes over the past 20 years, with an emphasis on work that supports the development of computational models. I discuss Bayesian models, equivalent illumination models, multidimensional scaling, anchoring theory, spatial filtering models, natural scene statistics, and related work in computer vision. I review open topics in lightness perception that seem ready for progress, including the relationship between lightness and brightness, and developing more sophisticated computational models of lightness in complex scenes.}
+      \field{title}{Lightness Perception in Complex Scenes}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1146/annurev-vision-093019
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1146/annurev-vision-093019-
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1146/annurev-vision-093019-
+      \endverb
+      \keyw{brightness,human vision,lightness,modeling,psychophysics}
+    \endentry
+    \entry{Otazu2008}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8ddb30334e20c3225001d3f1d9f78c3b}{%
+           family={Otazu},
+           familyi={O\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dde787f912a37ce4e68a7ad0b9e40c25}{%
+           family={Vanrell},
+           familyi={V\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dee63f5569dcf83303ce355fc99744a5}{%
+           family={Párraga},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi Alejandro},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8cff680f63770bf8c6b7f82c6e065fbe}
+      \strng{fullhash}{7a8c020e10a546c8d980ac43bf158685}
+      \strng{bibnamehash}{7a8c020e10a546c8d980ac43bf158685}
+      \strng{authorbibnamehash}{7a8c020e10a546c8d980ac43bf158685}
+      \strng{authornamehash}{8cff680f63770bf8c6b7f82c6e065fbe}
+      \strng{authorfullhash}{7a8c020e10a546c8d980ac43bf158685}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A new multiresolution wavelet model is presented here, which accounts for brightness assimilation and contrast effects in a unified framework, and includes known psychophysical and physiological attributes of the primate visual system (such as spatial frequency channels, oriented receptive fields, contrast sensitivity function, contrast non-linearities, and a unified set of parameters). Like other low-level models, such as the ODOG model [Blakeslee, B., & McCourt, M. E. (1999). A multiscale spatial filtering account of the white effect, simultaneous brightness contrast and grating induction. Vision Research, 39, 4361-4377], this formulation reproduces visual effects such as simultaneous contrast, the White effect, grating induction, the Todorović effect, Mach bands, the Chevreul effect and the Adelson-Logvinenko tile effects, but it also reproduces other previously unexplained effects such as the dungeon illusion, all using a single set of parameters. © 2007 Elsevier Ltd. All rights reserved.}
+      \field{issn}{00426989}
+      \field{issue}{5}
+      \field{journaltitle}{Vision Research}
+      \field{month}{2}
+      \field{title}{Multiresolution wavelet framework models brightness induction effects}
+      \field{volume}{48}
+      \field{year}{2008}
+      \field{pages}{733\bibrangedash 751}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1016/j.visres.2007.12.008
+      \endverb
+      \keyw{Brightness induction,Visual system,Wavelet transform}
+    \endentry
+    \entry{Robinson2007}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0c4e8f90c8e4b0eccc9ca03636459979}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={Alan\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d644558dc97a17e55e2d96ab4e689fc}{%
+           family={Hammon},
+           familyi={H\bibinitperiod},
+           given={Paul\bibnamedelima S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=685b812aad04c26356d5091c5e9995e4}{%
+           family={Sa},
+           familyi={S\bibinitperiod},
+           given={Virginia\bibnamedelima R.},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{49eaee7bef6ef720c54e826c7affa9f1}
+      \strng{fullhash}{82dfaefb6093b74842656fdfcaa3020e}
+      \strng{bibnamehash}{82dfaefb6093b74842656fdfcaa3020e}
+      \strng{authorbibnamehash}{82dfaefb6093b74842656fdfcaa3020e}
+      \strng{authornamehash}{49eaee7bef6ef720c54e826c7affa9f1}
+      \strng{authorfullhash}{82dfaefb6093b74842656fdfcaa3020e}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce two new low-level computational models of brightness perception that account for a wide range of brightness illusions, including many variations on White's Effect [Perception, 8, 1979, 413]. Our models extend Blakeslee and McCourt's ODOG model [Vision Research, 39, 1999, 4361], which combines multiscale oriented difference-of-Gaussian filters and response normalization. We extend the response normalization to be more neurally plausible by constraining normalization to nearby receptive fields (models 1 and 2) and spatial frequencies (model 2), and show that both of these changes increase the effectiveness of the models at predicting brightness illusions. © 2007 Elsevier Ltd. All rights reserved.}
+      \field{issn}{00426989}
+      \field{issue}{12}
+      \field{journaltitle}{Vision Research}
+      \field{month}{6}
+      \field{title}{Explaining brightness illusions using spatial filtering and local response normalization}
+      \field{volume}{47}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{1631\bibrangedash 1644}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.visres.2007.02.017
+      \endverb
+      \keyw{Brightness,Computational modeling,Contrast,White's effect}
+    \endentry
+    \entry{Sachs71}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ab881fdfb3165263af1e19913183e2a3}{%
+           family={Sachs},
+           familyi={S\bibinitperiod},
+           given={Murray\bibnamedelima B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e479953eed4b11657a44941d7330888d}{%
+           family={Nachmias},
+           familyi={N\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2392e91b3d081f09740db3bd8c042252}{%
+           family={Robson},
+           familyi={R\bibinitperiod},
+           given={John\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{be33a9f9e9f3b02f3e77679c0492bbe7}
+      \strng{fullhash}{9c7b4a80ed44b84f58efe87728e13e8d}
+      \strng{bibnamehash}{9c7b4a80ed44b84f58efe87728e13e8d}
+      \strng{authorbibnamehash}{9c7b4a80ed44b84f58efe87728e13e8d}
+      \strng{authornamehash}{be33a9f9e9f3b02f3e77679c0492bbe7}
+      \strng{authorfullhash}{9c7b4a80ed44b84f58efe87728e13e8d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Psychometric functions were determined concurrently for detection of simple gratings (luminance sinusoidally modulated with spatial frequency f) and complex gratings (luminance modulated by the sum of two sinusoids, with frequencies f and f$\prime$). Results were used to test the hypothesis that the two components of a complex grating may be detected independently. In an extensive experiment with f $=$ 14 cycles/deg, the independence hypothesis was consistently rejected only when f/f$\prime$$=$54 or 45, but rarely rejected when the value of f/f$\prime$ lay outside this range. In other experiments, f was between 1.9 and 22.4 cycles/deg. All results are compatible with the assumption that the human visual system contains sensory channels, each selectively sensitive to different narrow ranges of spatial frequencies, whose outputs are detected independently.}
+      \field{journaltitle}{J. Opt. Soc. Am.}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Spatial-Frequency Channels in Human Vision}
+      \field{volume}{61}
+      \field{year}{1971}
+      \field{pages}{1176\bibrangedash 1186}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1364/JOSA.61.001176
+      \endverb
+      \verb{urlraw}
+      \verb https://opg.optica.org/abstract.cfm?URI=josa-61-9-1176
+      \endverb
+      \verb{url}
+      \verb https://opg.optica.org/abstract.cfm?URI=josa-61-9-1176
+      \endverb
+      \keyw{Frequency modulation; Modulation transfer function; Physiology; Refractive anomalies; Spatial filtering; Spatial frequency}
+    \endentry
+    \entry{Whit1979}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5a9d51365245ff185d324c1d9280e46e}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5a9d51365245ff185d324c1d9280e46e}
+      \strng{fullhash}{5a9d51365245ff185d324c1d9280e46e}
+      \strng{bibnamehash}{5a9d51365245ff185d324c1d9280e46e}
+      \strng{authorbibnamehash}{5a9d51365245ff185d324c1d9280e46e}
+      \strng{authornamehash}{5a9d51365245ff185d324c1d9280e46e}
+      \strng{authorfullhash}{5a9d51365245ff185d324c1d9280e46e}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Perception, 8(4)}
+      \field{title}{A New Effect of Pattern on Perceived Lightness}
+      \field{year}{1979}
+      \field{pages}{413\bibrangedash 416}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1068/p080413
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1068/p080413
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1068/p080413
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Adelson1996}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d8bf8701029730824b2008a01e9caf72}{%
+           family={Adelson},
+           familyi={A\bibinitperiod},
+           given={E\bibnamedelima H},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43177b561ca25473b7ef5a976ad2894a}{%
+           family={Pentland},
+           familyi={P\bibinitperiod},
+           given={A\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{c26655b477eb18769f623d0b458ffa11}
+      \strng{fullhash}{c26655b477eb18769f623d0b458ffa11}
+      \strng{bibnamehash}{c26655b477eb18769f623d0b458ffa11}
+      \strng{authorbibnamehash}{c26655b477eb18769f623d0b458ffa11}
+      \strng{authornamehash}{c26655b477eb18769f623d0b458ffa11}
+      \strng{authorfullhash}{c26655b477eb18769f623d0b458ffa11}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The perception of shading and reflectance}
+      \field{volume}{1}
+      \field{year}{1996}
+      \true{nocite}
+      \field{pages}{409\bibrangedash 423}
+      \range{pages}{15}
+    \endentry
+    \entry{adelson1995checkershadow}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dd5f6f633f533723c6079fcfb892c18f}{%
+           family={Adelson},
+           familyi={A\bibinitperiod},
+           given={Edward\bibnamedelima H},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{fullhash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{bibnamehash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{authorbibnamehash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{authornamehash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{authorfullhash}{dd5f6f633f533723c6079fcfb892c18f}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Checkershadow illusion}
+      \field{year}{1995}
+      \verb{urlraw}
+      \verb https://persci.mit.edu/publications
+      \endverb
+      \verb{url}
+      \verb https://persci.mit.edu/publications
+      \endverb
+    \endentry
+    \entry{adelson2000}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dd5f6f633f533723c6079fcfb892c18f}{%
+           family={Adelson},
+           familyi={A\bibinitperiod},
+           given={Edward\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{fullhash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{bibnamehash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{authorbibnamehash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{authornamehash}{dd5f6f633f533723c6079fcfb892c18f}
+      \strng{authorfullhash}{dd5f6f633f533723c6079fcfb892c18f}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The New Cognitive Neurosciences, 2nd ed., M. Gazzaniga, ed. Cambridge, MA: MIT Press,}
+      \field{title}{Lightness Perception and Lightness Illusions}
+      \field{year}{2000}
+      \field{pages}{339\bibrangedash 351}
+      \range{pages}{13}
+    \endentry
+    \entry{arend1993}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ce0afbb9cbc4d39b5572a10e6ed4178e}{%
+           family={Arend},
+           familyi={A\bibinitperiod},
+           given={Lawrence\bibnamedelima E},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce0afbb9cbc4d39b5572a10e6ed4178e}
+      \strng{fullhash}{ce0afbb9cbc4d39b5572a10e6ed4178e}
+      \strng{bibnamehash}{ce0afbb9cbc4d39b5572a10e6ed4178e}
+      \strng{authorbibnamehash}{ce0afbb9cbc4d39b5572a10e6ed4178e}
+      \strng{authornamehash}{ce0afbb9cbc4d39b5572a10e6ed4178e}
+      \strng{authorfullhash}{ce0afbb9cbc4d39b5572a10e6ed4178e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Perception and Psychophysics}
+      \field{title}{Lightness, brightness, and brightness contrast}
+      \field{year}{1993}
+      \field{pages}{457\bibrangedash 468}
+      \range{pages}{12}
+    \endentry
+    \entry{Betz2015}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d0deeeac3528dad6f9c42967b2b7ff6d}{%
+           family={Betz},
+           familyi={B\bibinitperiod},
+           given={Torsten},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cdac55fcb6989465775a9ede1f64787}{%
+           family={Shapley},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20afa03815f57165428b0c34ca89aafc}{%
+           family={Wichmann},
+           familyi={W\bibinitperiod},
+           given={Felix\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1cb203084c0f2011c751a486df0c484}{%
+           family={Maertens},
+           familyi={M\bibinitperiod},
+           given={Marianne},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Association for Research in Vision}%
+        {Ophthalmology Inc.}%
+      }
+      \strng{namehash}{62d652087c1392a4f1ecf0397c477b7e}
+      \strng{fullhash}{27ad52a30703a7939fbd28071769d1c3}
+      \strng{bibnamehash}{27ad52a30703a7939fbd28071769d1c3}
+      \strng{authorbibnamehash}{27ad52a30703a7939fbd28071769d1c3}
+      \strng{authornamehash}{62d652087c1392a4f1ecf0397c477b7e}
+      \strng{authorfullhash}{27ad52a30703a7939fbd28071769d1c3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Spatial filtering models are currently a widely accepted mechanistic account of human lightness perception. Their popularity can be ascribed to two reasons: They correctly predict how human observers perceive a variety of lightness illusions, and the processing steps involved in the models bear an apparent resemblance with known physiological mechanisms at early stages of visual processing. Here, we tested the adequacy of these models by probing their response to stimuli that have been modified by adding narrowband noise. Psychophysically, it has been shown that noise in the range of one to five cycles per degree (cpd) can drastically reduce the strength of some lightness phenomena, while noise outside this range has little or no effect on perceived lightness. Choosing White's illusion (White, 1979) as a test case, we replicated and extended the psychophysical results, and found that none of the spatial filtering models tested was able to reproduce the spatial frequency specific effect of narrowband noise. We discuss the reasons for failure for each model individually, but we argue that the failure is indicative of the general inadequacy of this class of spatial filtering models. Given the present evidence we do not believe that spatial filtering models capture the mechanisms that are responsible for producing many of the lightness phenomena observed in human perception. Instead we think that our findings support the idea that low-level contributions to perceived lightness are primarily determined by the luminance contrast at surface boundaries.}
+      \field{issn}{15347362}
+      \field{issue}{14}
+      \field{journaltitle}{Journal of Vision}
+      \field{title}{Noise masking of White's illusion exposes the weakness of current spatial filtering models of lightness perception}
+      \field{volume}{15}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1167/15.14.1
+      \endverb
+    \endentry
+    \entry{Blakeslee1997}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=31c2e7d8defce2901fdf58fb4b067ec0}{%
+           family={Blakeslee},
+           familyi={B\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ba53214f5e0f9df05caf5c0a6929a28}{%
+           family={Mccourt},
+           familyi={M\bibinitperiod},
+           given={Mark\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{fullhash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{bibnamehash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{authorbibnamehash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{authornamehash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{authorfullhash}{75c86a17481e4483c874eb2f0f7652d6}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vision Research}
+      \field{title}{Similar mechanisms underlie simultaneous brightness contrast and grating induction}
+      \field{year}{1997}
+      \field{pages}{4361\bibrangedash 4377}
+      \range{pages}{17}
+    \endentry
+    \entry{Blakeslee1999}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=31c2e7d8defce2901fdf58fb4b067ec0}{%
+           family={Blakeslee},
+           familyi={B\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ba53214f5e0f9df05caf5c0a6929a28}{%
+           family={Mccourt},
+           familyi={M\bibinitperiod},
+           given={Mark\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{fullhash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{bibnamehash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{authorbibnamehash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{authornamehash}{75c86a17481e4483c874eb2f0f7652d6}
+      \strng{authorfullhash}{75c86a17481e4483c874eb2f0f7652d6}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Blakeslee and McCourt ((1997) Vision Research, 37, 2849-2869) demonstrated that a multiscale array of two-dimensional difference-of-Gaussian (DOG) filters provided a simple but powerful model for explaining a number of seemingly complex features of grating induction (GI), while simultaneously encompassing salient features of brightness induction in simultaneous brightness contrast (SBC), brightness assimilation and Hermann Grid stimuli. The DOG model (and isotropic contrast models in general) cannot, however, account for another important group of brightness effects which includes the White effect (White (1979) Perception, 8, 413-416) and the demonstrations of Todorovic ((1997) Perception, 26, 379-395). This paper introduces an oriented DOG (ODOG) model which differs from the DOG model in that the filters are anisotropic and their outputs are pooled nonlinearly. The ODOG model qualitatively predicts the appearance of the test patches in the White effect, the Todorovic demonstration, GI and SBC, while quantitatively predicting the relative magnitudes of these brightness effects as measured psychophysically using brightness matching. The model also accounts for both the smooth transition in test patch brightness seen in the White effect (White & White (1985) Vision Research, 25, 1331-1335) when the relative phase of the test patch is varied relative to the inducing grating, and for the spatial variation of brightness across the test patch as measured using point-by-point brightness matching. Finally, the model predicts intensive aspects of brightness induction measured in a series of Todorovic stimuli as the arms of the test crosses are lengthened (Pessoa, Baratoff, Neumann & Todorokov (1998) In6estigati6e Ophthalmol-ogy and Visual Science, Supplement, 39, S159), but fails in one condition. Although it is concluded that higher-level perceptual grouping factors may play a role in determining brightness in this instance, in general the psychophysical results and ODOG modeling argue strongly that the induced brightness phenomena of SBC, GI, the White effect and the Todorovic demonstration, primarily reflect early-stage cortical filtering operations in the visual system.}
+      \field{journaltitle}{Vision Research}
+      \field{title}{A multiscale spatial filtering account of the White effect, simultaneous brightness contrast and grating induction}
+      \field{volume}{39}
+      \field{year}{1999}
+      \field{pages}{4361\bibrangedash 4377}
+      \range{pages}{17}
+      \verb{urlraw}
+      \verb www.elsevier.com
+      \endverb
+      \verb{url}
+      \verb www.elsevier.com
+      \endverb
+      \keyw{Brightness induction,Grating induction,Simultaneous brightness contrast,White effect}
+    \endentry
+    \entry{Brainard2003-BRACCD-2}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3b743fc56f1bb1dfa52d12f2b8d65e85}{%
+           family={Brainard},
+           familyi={B\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=d9095f96ce073fe2904f0690151fc333}{%
+           family={Longere},
+           familyi={L\bibinitperiod},
+           given={Kraft\bibnamedelima \&},
+           giveni={K\bibinitperiod\bibinitdelim \\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=b0a4f3ad976aaad44b71bc373a812a63}{%
+           family={Mausfeld},
+           familyi={M\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6af76a7a9b827a20afc70a0347925086}{%
+           family={Heyer},
+           familyi={H\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{2684602fd3314a7252de7b9ae3fc6603}
+      \strng{fullhash}{2684602fd3314a7252de7b9ae3fc6603}
+      \strng{bibnamehash}{2684602fd3314a7252de7b9ae3fc6603}
+      \strng{authorbibnamehash}{2684602fd3314a7252de7b9ae3fc6603}
+      \strng{authornamehash}{2684602fd3314a7252de7b9ae3fc6603}
+      \strng{authorfullhash}{2684602fd3314a7252de7b9ae3fc6603}
+      \strng{editorbibnamehash}{faaae94acebb755f4a28d6eb26d869f1}
+      \strng{editornamehash}{faaae94acebb755f4a28d6eb26d869f1}
+      \strng{editorfullhash}{faaae94acebb755f4a28d6eb26d869f1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Colour Perception: Mind and the Physical World}
+      \field{title}{Colour Constancy: Developing Empirical Tests of Computational Models}
+      \field{year}{2003}
+      \true{nocite}
+      \field{pages}{308\bibrangedash 326}
+      \range{pages}{19}
+    \endentry
+    \entry{Gundersen2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=78f7342d089d08cc6586f50acc74d0d5}{%
+           family={Gundersen},
+           familyi={G\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{78f7342d089d08cc6586f50acc74d0d5}
+      \strng{fullhash}{78f7342d089d08cc6586f50acc74d0d5}
+      \strng{bibnamehash}{78f7342d089d08cc6586f50acc74d0d5}
+      \strng{authorbibnamehash}{78f7342d089d08cc6586f50acc74d0d5}
+      \strng{authornamehash}{78f7342d089d08cc6586f50acc74d0d5}
+      \strng{authorfullhash}{78f7342d089d08cc6586f50acc74d0d5}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{From Convolution to Neural Network}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://gregorygundersen.com/blog/2017/02/24/cnns/
+      \endverb
+      \verb{url}
+      \verb https://gregorygundersen.com/blog/2017/02/24/cnns/
+      \endverb
+      \keyw{blog,conolution}
+    \endentry
+    \entry{Hanson1978}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=efccf6e4cc79426082c73b6d27584c9b}{%
+           family={Hanson},
+           familyi={H\bibinitperiod},
+           given={Allen\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c6f2304f042dd47074ccd52a9b70994}{%
+           family={Riseman},
+           familyi={R\bibinitperiod},
+           given={Edward\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{eb244c5a3584ac2130f8c7b8f0ff09f2}
+      \strng{fullhash}{eb244c5a3584ac2130f8c7b8f0ff09f2}
+      \strng{bibnamehash}{eb244c5a3584ac2130f8c7b8f0ff09f2}
+      \strng{authorbibnamehash}{eb244c5a3584ac2130f8c7b8f0ff09f2}
+      \strng{authornamehash}{eb244c5a3584ac2130f8c7b8f0ff09f2}
+      \strng{authorfullhash}{eb244c5a3584ac2130f8c7b8f0ff09f2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0123235502}
+      \field{journaltitle}{Computer vision systems}
+      \field{title}{Recovering Intrinsic Scene Characteristics from Images}
+      \field{year}{1977}
+      \true{nocite}
+    \endentry
+    \entry{Kingdom1997}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f76421ef3f448745bc7f0c87adcdfc73}{%
+           family={Kingdom},
+           familyi={K\bibinitperiod},
+           given={Frederick\bibnamedelima A.A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{fullhash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{bibnamehash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{authorbibnamehash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{authornamehash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{authorfullhash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Perception}
+      \field{note}{PMID: 9474338}
+      \field{number}{6}
+      \field{title}{Simultaneous Contrast: The Legacies of Hering and Helmholtz}
+      \field{volume}{26}
+      \field{year}{1997}
+      \field{pages}{673\bibrangedash 677}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1068/p260673
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1068/p260673
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1068/p260673
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1068/p260673
+      \endverb
+    \endentry
+    \entry{Kingdom2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f76421ef3f448745bc7f0c87adcdfc73}{%
+           family={Kingdom},
+           familyi={K\bibinitperiod},
+           given={Frederick\bibnamedelima A.A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{fullhash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{bibnamehash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{authorbibnamehash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{authornamehash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \strng{authorfullhash}{f76421ef3f448745bc7f0c87adcdfc73}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MIT Press}
+      \field{title}{Brightness and Lightness}
+      \field{year}{2014}
+      \field{pages}{499\bibrangedash 509}
+      \range{pages}{11}
+    \endentry
+    \entry{Murray2021}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fec13194324b2d26a645191e5d378a84}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelima F},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fec13194324b2d26a645191e5d378a84}
+      \strng{fullhash}{fec13194324b2d26a645191e5d378a84}
+      \strng{bibnamehash}{fec13194324b2d26a645191e5d378a84}
+      \strng{authorbibnamehash}{fec13194324b2d26a645191e5d378a84}
+      \strng{authornamehash}{fec13194324b2d26a645191e5d378a84}
+      \strng{authorfullhash}{fec13194324b2d26a645191e5d378a84}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Lightness perception is the perception of achromatic surface colors: black, white, and shades of grey. Lightness has long been a central research topic in experimental psychology, as perceiving surface color is an important visual task but also a difficult one due to the deep ambiguity of retinal images. In this article, I review psychophysical work on lightness perception in complex scenes over the past 20 years, with an emphasis on work that supports the development of computational models. I discuss Bayesian models, equivalent illumination models, multidimensional scaling, anchoring theory, spatial filtering models, natural scene statistics, and related work in computer vision. I review open topics in lightness perception that seem ready for progress, including the relationship between lightness and brightness, and developing more sophisticated computational models of lightness in complex scenes.}
+      \field{title}{Lightness Perception in Complex Scenes}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1146/annurev-vision-093019
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1146/annurev-vision-093019-
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1146/annurev-vision-093019-
+      \endverb
+      \keyw{brightness,human vision,lightness,modeling,psychophysics}
+    \endentry
+    \entry{Otazu2008}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8ddb30334e20c3225001d3f1d9f78c3b}{%
+           family={Otazu},
+           familyi={O\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dde787f912a37ce4e68a7ad0b9e40c25}{%
+           family={Vanrell},
+           familyi={V\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dee63f5569dcf83303ce355fc99744a5}{%
+           family={Párraga},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi Alejandro},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8cff680f63770bf8c6b7f82c6e065fbe}
+      \strng{fullhash}{7a8c020e10a546c8d980ac43bf158685}
+      \strng{bibnamehash}{7a8c020e10a546c8d980ac43bf158685}
+      \strng{authorbibnamehash}{7a8c020e10a546c8d980ac43bf158685}
+      \strng{authornamehash}{8cff680f63770bf8c6b7f82c6e065fbe}
+      \strng{authorfullhash}{7a8c020e10a546c8d980ac43bf158685}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A new multiresolution wavelet model is presented here, which accounts for brightness assimilation and contrast effects in a unified framework, and includes known psychophysical and physiological attributes of the primate visual system (such as spatial frequency channels, oriented receptive fields, contrast sensitivity function, contrast non-linearities, and a unified set of parameters). Like other low-level models, such as the ODOG model [Blakeslee, B., & McCourt, M. E. (1999). A multiscale spatial filtering account of the white effect, simultaneous brightness contrast and grating induction. Vision Research, 39, 4361-4377], this formulation reproduces visual effects such as simultaneous contrast, the White effect, grating induction, the Todorović effect, Mach bands, the Chevreul effect and the Adelson-Logvinenko tile effects, but it also reproduces other previously unexplained effects such as the dungeon illusion, all using a single set of parameters. © 2007 Elsevier Ltd. All rights reserved.}
+      \field{issn}{00426989}
+      \field{issue}{5}
+      \field{journaltitle}{Vision Research}
+      \field{month}{2}
+      \field{title}{Multiresolution wavelet framework models brightness induction effects}
+      \field{volume}{48}
+      \field{year}{2008}
+      \field{pages}{733\bibrangedash 751}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1016/j.visres.2007.12.008
+      \endverb
+      \keyw{Brightness induction,Visual system,Wavelet transform}
+    \endentry
+    \entry{Robinson2007}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0c4e8f90c8e4b0eccc9ca03636459979}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={Alan\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d644558dc97a17e55e2d96ab4e689fc}{%
+           family={Hammon},
+           familyi={H\bibinitperiod},
+           given={Paul\bibnamedelima S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=685b812aad04c26356d5091c5e9995e4}{%
+           family={Sa},
+           familyi={S\bibinitperiod},
+           given={Virginia\bibnamedelima R.},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{49eaee7bef6ef720c54e826c7affa9f1}
+      \strng{fullhash}{82dfaefb6093b74842656fdfcaa3020e}
+      \strng{bibnamehash}{82dfaefb6093b74842656fdfcaa3020e}
+      \strng{authorbibnamehash}{82dfaefb6093b74842656fdfcaa3020e}
+      \strng{authornamehash}{49eaee7bef6ef720c54e826c7affa9f1}
+      \strng{authorfullhash}{82dfaefb6093b74842656fdfcaa3020e}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce two new low-level computational models of brightness perception that account for a wide range of brightness illusions, including many variations on White's Effect [Perception, 8, 1979, 413]. Our models extend Blakeslee and McCourt's ODOG model [Vision Research, 39, 1999, 4361], which combines multiscale oriented difference-of-Gaussian filters and response normalization. We extend the response normalization to be more neurally plausible by constraining normalization to nearby receptive fields (models 1 and 2) and spatial frequencies (model 2), and show that both of these changes increase the effectiveness of the models at predicting brightness illusions. © 2007 Elsevier Ltd. All rights reserved.}
+      \field{issn}{00426989}
+      \field{issue}{12}
+      \field{journaltitle}{Vision Research}
+      \field{month}{6}
+      \field{title}{Explaining brightness illusions using spatial filtering and local response normalization}
+      \field{volume}{47}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{1631\bibrangedash 1644}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.visres.2007.02.017
+      \endverb
+      \keyw{Brightness,Computational modeling,Contrast,White's effect}
+    \endentry
+    \entry{Sachs71}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ab881fdfb3165263af1e19913183e2a3}{%
+           family={Sachs},
+           familyi={S\bibinitperiod},
+           given={Murray\bibnamedelima B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e479953eed4b11657a44941d7330888d}{%
+           family={Nachmias},
+           familyi={N\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2392e91b3d081f09740db3bd8c042252}{%
+           family={Robson},
+           familyi={R\bibinitperiod},
+           given={John\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{be33a9f9e9f3b02f3e77679c0492bbe7}
+      \strng{fullhash}{9c7b4a80ed44b84f58efe87728e13e8d}
+      \strng{bibnamehash}{9c7b4a80ed44b84f58efe87728e13e8d}
+      \strng{authorbibnamehash}{9c7b4a80ed44b84f58efe87728e13e8d}
+      \strng{authornamehash}{be33a9f9e9f3b02f3e77679c0492bbe7}
+      \strng{authorfullhash}{9c7b4a80ed44b84f58efe87728e13e8d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Psychometric functions were determined concurrently for detection of simple gratings (luminance sinusoidally modulated with spatial frequency f) and complex gratings (luminance modulated by the sum of two sinusoids, with frequencies f and f$\prime$). Results were used to test the hypothesis that the two components of a complex grating may be detected independently. In an extensive experiment with f $=$ 14 cycles/deg, the independence hypothesis was consistently rejected only when f/f$\prime$$=$54 or 45, but rarely rejected when the value of f/f$\prime$ lay outside this range. In other experiments, f was between 1.9 and 22.4 cycles/deg. All results are compatible with the assumption that the human visual system contains sensory channels, each selectively sensitive to different narrow ranges of spatial frequencies, whose outputs are detected independently.}
+      \field{journaltitle}{J. Opt. Soc. Am.}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Spatial-Frequency Channels in Human Vision}
+      \field{volume}{61}
+      \field{year}{1971}
+      \field{pages}{1176\bibrangedash 1186}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1364/JOSA.61.001176
+      \endverb
+      \verb{urlraw}
+      \verb https://opg.optica.org/abstract.cfm?URI=josa-61-9-1176
+      \endverb
+      \verb{url}
+      \verb https://opg.optica.org/abstract.cfm?URI=josa-61-9-1176
+      \endverb
+      \keyw{Frequency modulation; Modulation transfer function; Physiology; Refractive anomalies; Spatial filtering; Spatial frequency}
+    \endentry
+    \entry{Whit1979}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5a9d51365245ff185d324c1d9280e46e}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5a9d51365245ff185d324c1d9280e46e}
+      \strng{fullhash}{5a9d51365245ff185d324c1d9280e46e}
+      \strng{bibnamehash}{5a9d51365245ff185d324c1d9280e46e}
+      \strng{authorbibnamehash}{5a9d51365245ff185d324c1d9280e46e}
+      \strng{authornamehash}{5a9d51365245ff185d324c1d9280e46e}
+      \strng{authorfullhash}{5a9d51365245ff185d324c1d9280e46e}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Perception, 8(4)}
+      \field{title}{A New Effect of Pattern on Perceived Lightness}
+      \field{year}{1979}
+      \field{pages}{413\bibrangedash 416}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1068/p080413
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1068/p080413
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1068/p080413
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

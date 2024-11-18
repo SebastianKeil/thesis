@@ -1,0 +1,22 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'expose.blg'
+[49] biber:340> INFO - === Mon Nov 18, 2024, 16:11:41
+[60] Biber.pm:419> INFO - Reading 'expose.bcf'
+[117] Biber.pm:979> INFO - Found 17 citekeys in bib section 0
+[131] Biber.pm:4419> INFO - Processing section 0
+[139] Biber.pm:4610> INFO - Looking for bibtex file 'literatur/refs.bib' for section 0
+[141] bibtex.pm:1713> INFO - LaTeX decoding ...
+[158] bibtex.pm:1519> INFO - Found BibTeX data source 'literatur/refs.bib'
+[270] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[270] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[270] Biber.pm:4239> INFO - Sorting list 'nyt/apasortcite//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[270] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[296] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[296] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[296] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[296] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[311] bbl.pm:660> INFO - Writing 'expose.bbl' with encoding 'UTF-8'
+[321] bbl.pm:763> INFO - Output to expose.bbl
+[322] Biber.pm:131> WARN - Duplicate entry key: 'Blakeslee1999' in file 'literatur/refs.bib', skipping ...
+[322] Biber.pm:131> WARN - legacy month field 'Sep' in entry 'Sachs71' is not an integer - this will probably not sort properly.
+[322] Biber.pm:133> INFO - WARNINGS: 2
