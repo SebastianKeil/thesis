@@ -419,10 +419,8 @@ modification on a set of illusions and comparing the outputs quantitatively.
 
 \section{Structure of the thesis}
 
-This is an idea for the structure of the thesis.
 
-\begin{enumerate}
-    \item (Abstract)
+\begin{enumerate} 
     \item Introduction
     \begin{enumerate}
         \item Light an the Visual System
@@ -430,44 +428,95 @@ This is an idea for the structure of the thesis.
         \item Modelling Human Vision
         \item ODOG and BIWaM
     \end{enumerate}
-    \item Methods %\newline \textit{One of the following will be in focus} 
-        \begin{enumerate}
-            \item Decomposition and Reconstruction
-            \item Processing
-        \end{enumerate}
-    \item Results (summary)
-    \item Discussion
-    \begin{enumerate}
-        \item Linking differences in structure and results with behavior
-    \end{enumerate}
+    
 \end{enumerate}
 
 
+\newpage
 
-\section{Methods}
+\section{Methods}  %\newline \textit{One of the following will be in focus} 
+    \begin{enumerate}
+        \item \textbf{Recreation of published predictions for BIWaM}
+        \begin{itemize}
+            \item Understanding the algorithm and parameter exploration.
+            \item Python reimplementation, to compare with ODOGs python implementation.
+            \item Recreate input stimuli from the paper using the Stimupy library.
+            \item Evaluate robustness of the BIWaM model to input variations.
+            \item Illusions tested: Two versions of SBC, two versions of White’s effect, and the Todorovic illusion.
+        \end{itemize}
+    
+        \item \textbf{Modification of parameters} \newline BIWaM:
+        \begin{itemize} 
+            \item CSF parameters
+            \item Decomposition levels, window size, peak s.f.
+            \item A big window size does effectively end up in global normalization (?)
+            \item Wavelet filter functions (?)
+        \end{itemize}
+        ODOG:
+        \begin{itemize} 
+            \item Number of scales and orientations 
+            \item Filter functions
+            \item Down- and upsampling (?)
+        \end{itemize}
+    
+        \item \textbf{Comparative testing}:
+        \begin{itemize}
+            \item Applied both models to recreated stimuli and analyze outputs.
+            \item Adjusted parameters to align both models for direct comparison.
+        \end{itemize}
+    \end{enumerate}
+
+\newpage
+
+\section{Results} 
 \begin{enumerate}
-    \item Recreation of published predictions with available source codes
-    \begin{enumerate}
-        \item How sensitive are the models to changes in Input?
-    \end{enumerate}
-    \item Modification of priority parameters in both models
-    \begin{enumerate}
-        \item BIWaM: What does the CSF params do?
-        \item BIWaM: What does window size, peak SF and wavelet levels do?
-        \item ODOG: What does the filterbank size do? scale / orientation?
-        \item ODOG: What does the filter type do?
-    \end{enumerate}
+    
+    \item \textbf{Recreation of published predictions for BIWaM}:
+    \begin{itemize}
+        \item Avilable Matlab implementation is another version (CIWaM).
+        \item Bad reproducibility led to extensive research and parameter exploration.
+        \item DWT function is highly optimized and undocumented -> took a lot of time to understand.
+        \item Python reimplementation behaves same as Matlab version (CIWaM).
+        \item Using CIWaM\_per\_channel function from CIWaM code as BIWaM representative.
+        \item \textbf{Predictions}
+            \begin{itemize} 
+                \item Available BIWaM predicts brightness illusions qualitatively, but not quantitatively.
+                \item Model outputs diverged from published results despite wide parameter adjustments.
+                \item This led to the question of whether the available model is different, or whether the parameters are different, or whether the re-created stimuli (as input) are different.
+                \item Tests indicated high robustness of BIWaM to input variations, suggesting that output differences are coming from differences in implementation rather than the re-created stimuli.
+            \end{itemize}
+    \end{itemize}
+    
+    \item \textbf{Findings on parameter effects}:
+    \begin{itemize}
+        \item Adjusting wavelet levels influenced decomposition depth but did not resolve discrepancies.
+        \item Modifying filters results in ...
+        \item Modifying window size results in ...
+        \item Modifying peak s.f. results in ...
+    \end{itemize}
+
+    \item \textbf{Findings on comparative testing}:
+    \begin{itemize}
+        \item On the exact same stimuli the original models ....
+        \item With aligned parameters both models behave ...
+    \end{itemize}
+
+    \item \textbf{Potential differences between models}:
+    \begin{itemize}
+        \item Studying the models showed that the following features of the models are causing differences
+    \end{itemize}
+
 \end{enumerate}
 
-\section{Results}
-\begin{enumerate}
-    \item Results of Recreations
-    \item Results of Modifications
-\end{enumerate}
+\newpage
 
-\section{Discussion}
+\section{Discussion} 
 \begin{enumerate}
-    \item Why is the Recreation not working as expected?
+    \item \textbf{Linking differences in structure with results in behavior}
+    \item \textbf{Insights into decomposition}:
+    \begin{itemize}
+        \item Information loss through downsampling does not appear to cause output differences.
+    \end{itemize}
 \end{enumerate}
 
 
