@@ -340,13 +340,46 @@ distinct concepts.
 \newpage
 
 
-\section{Research}
+\section{Methods}  %\newline \textit{One of the following will be in focus} 
 
-A review of the publications revealed differences between the models, as listed in the
-table in Figure \ref{fig:figure8}. To understand their impact, the plans in the next
-subsection are being developed.
+\subsection*{Preperations}
 
-\subsection{Methods}
+\begin{itemize}
+    \item To modify the models, it was necessary to have access to their source codes
+    \item for ODOG use the available Multyscale library
+    \item to reduce errors from different technologies: reimplementation of biwam in Python
+    \item Recreate input stimuli from the paper using the Stimupy library.
+    \item Evaluate robustness of the BIWaM model to input variations.
+    \item Understanding the algorithms and parameter definition.
+    \item Illusions tested: Two versions of SBC, two versions of White’s effect, and the Todorovic illusion.
+    \item Recreation of published predictions for BIWaM
+\end{itemize}
+
+\subsection*{Modification of parameters}
+BIWaM:
+\begin{itemize} 
+    \item CSF parameters
+    \item Decomposition levels, window size, peak s.f.
+    \item A big window size does effectively end up in global normalization (?)
+    \item Wavelet filter functions (?)
+\end{itemize}
+ODOG:
+\begin{itemize} 
+    \item Number of scales and orientations 
+    \item Filter functions
+    \item Down- and upsampling (?)
+\end{itemize}
+
+At the end there could be a list which lists every parameter of every model and shows the
+effect of it.
+
+\subsection*{Comparative testing}
+\begin{itemize}
+    \item Applied both models to recreated stimuli and analyze outputs.
+    \item Adjusted parameters to align both models for direct comparison.
+\end{itemize}
+
+\newpage
 
 For each step shown in Figure \ref{fig:figure7}, the focus will be on the structural
 differences between the models. Adjusting the ODOG model to align it more closely with the
@@ -368,109 +401,11 @@ modification on a set of illusions and comparing the outputs quantitatively.
     \end{minipage}
 \end{figure}
 
-\newpage
-
-\subsection*{Decomposition and Reconstruction}
-\begin{enumerate}
-    % \item For decomposition we plan to change the ODOG model stepwise. For example
-    % changing the filterbank size, to match the orientations and scales of the BIWaM. Also
-    % do this adjustment for the type of filter used in the convolutions and try to copy the
-    % downsampling instead of the different filter sizes.
-    \item A wavelet transformation results in a function that is localized in both space
-    and frequency. In the ODOG model the results of the filterbank will hold every spatial
-    data for any frequency, in other words the responses of different frequencies will be
-    a two-dimensional image itself, where the value at each pixel correlates to the
-    presence of this frequency at this location. Can we find any details about wavelet
-    transformation being the superior?
-    \item Looking at the functions used for convolution (Gabor and Difference of Gaussian)
-    and change them in the source code could be informative.
-    \item The levels of decomposition in the wavelet transformation can be compared to
-    the filterbank size. Adjusting them will show the influence in decomposition and the
-    difference between the models.
-    \item The BIWaM uses a reverse wavelet transformation to reconstruct the output image,
-    while the ODOG is summing up the channels it created during decomposition and
-    processing stage. Where is the difference and could changing the source code show
-    the differences to the processes?
-\end{enumerate}
-
-
-\subsection*{Processing}
-\begin{enumerate}
-    \item To analyze the processing step for both models, it will be necessary to look at
-    processing inside the wavelet planes versus processing in the filterbank output.
-    Separatly to the processing itself, does it make a difference to compute the
-    decomposed image inside a wavelet plane versus inside the filterbank channels?
-    \item The processing itself is different independent from where it is happening. Does
-    the weighting in BIWaM really make a difference to the one the ODOG is using? To
-    investigate this, a modification of the source code is necessary, e.g. changing the
-    implementation of BIWaM and use a $f^{0.1}$ function to attenuate low frequencies,
-    like in the ODOG model.
-    \item According to Otazu et al., \emph{"this modified CSF takes into account the
-    (spatial) surround information, so that the value of the contrast sensitivity
-    increases when surround contrast decreases and vice versa."}, \parencite{Otazu2008}.
-    But aren't low frequencies filters applying the same logic? Kingdom mentioned:
-    \emph{"In multiscale spatial-filtering models remote context makes its impact via the
-    coarse-scale (low-spatial-frequency) filters"}
-    \parencite{Kingdom2014}
-\end{enumerate}
-
-
-\newpage
-
-\section{Structure of the thesis}
-
-
-\begin{enumerate} 
-    \item Introduction
-    \begin{enumerate}
-        \item Light an the Visual System
-        \item Low-Level Vision
-        \item Modelling Human Vision
-        \item ODOG and BIWaM
-    \end{enumerate}
-    
-\end{enumerate}
-
-
-\newpage
-
-\section{Methods}  %\newline \textit{One of the following will be in focus} 
-    \begin{enumerate}
-        \item \textbf{Recreation of published predictions for BIWaM}
-        \begin{itemize}
-            \item Understanding the algorithm and parameter exploration.
-            \item Python reimplementation, to compare with ODOGs python implementation.
-            \item Recreate input stimuli from the paper using the Stimupy library.
-            \item Evaluate robustness of the BIWaM model to input variations.
-            \item Illusions tested: Two versions of SBC, two versions of White’s effect, and the Todorovic illusion.
-        \end{itemize}
-    
-        \item \textbf{Modification of parameters} \newline BIWaM:
-        \begin{itemize} 
-            \item CSF parameters
-            \item Decomposition levels, window size, peak s.f.
-            \item A big window size does effectively end up in global normalization (?)
-            \item Wavelet filter functions (?)
-        \end{itemize}
-        ODOG:
-        \begin{itemize} 
-            \item Number of scales and orientations 
-            \item Filter functions
-            \item Down- and upsampling (?)
-        \end{itemize}
-    
-        \item \textbf{Comparative testing}:
-        \begin{itemize}
-            \item Applied both models to recreated stimuli and analyze outputs.
-            \item Adjusted parameters to align both models for direct comparison.
-        \end{itemize}
-    \end{enumerate}
 
 \newpage
 
 \section{Results} 
 \begin{enumerate}
-    
     \item \textbf{Recreation of published predictions for BIWaM}:
     \begin{itemize}
         \item Avilable Matlab implementation is another version (CIWaM).
@@ -486,7 +421,7 @@ modification on a set of illusions and comparing the outputs quantitatively.
                 \item Tests indicated high robustness of BIWaM to input variations, suggesting that output differences are coming from differences in implementation rather than the re-created stimuli.
             \end{itemize}
     \end{itemize}
-    
+
     \item \textbf{Findings on parameter effects}:
     \begin{itemize}
         \item Adjusting wavelet levels influenced decomposition depth but did not resolve discrepancies.
@@ -505,7 +440,6 @@ modification on a set of illusions and comparing the outputs quantitatively.
     \begin{itemize}
         \item Studying the models showed that the following features of the models are causing differences
     \end{itemize}
-
 \end{enumerate}
 
 \newpage
