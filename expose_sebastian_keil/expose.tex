@@ -31,38 +31,36 @@
 In the environment, light is emitted by a source of illumination, such as the sun. Any
 surface on which this light falls will reflect a portion of it as \emph{luminance}. This
 portion is called the \emph{reflectance} of the surface. The luminance is therefore the
-result of \emph{illuminance} and reflectance, as shown in Figure \ref*{fig:figure1} a). A
-lightmeter can measure the amount of luminance reflected by a surface, but it cannot tell
-what the reflectance of this surface is, because the luminance could be the product of any
-combination of illuminance and reflectance.
-\begin{equation}
-    L = I \cdot R
-    \label{eq:lightness_model}
-\end{equation} 
-The formula \ref*{eq:lightness_model} shows the problem from a mathematical perspective.
-\(L\) represents luminance, \(I\) and \(R\) illuminance and reflectance, respectively. It
-is simply impossible to solve for \(I\) and \(R\), when only \(L\) is been measured, since
-for every \(R\) there is an \(I\) to produce the measured \(L\) \parencite{adelson2000}.
-\\ 
-However, the human visual system can solve this problem. It is also processing only
-luminance, yet it is able to generate the perception of reflectance, which is referred to
-as lightness. Figure \ref*{fig:figure1} b) shows an abstraction of this process.
+result of \emph{illuminance} and reflectance, as shown in Figure
+\ref*{fig:light_visual_system} a). A lightmeter can measure the amount of luminance
+reflected by a surface, but it cannot tell what the reflectance of this surface is,
+because the luminance could be the product of any combination of illuminance and
+reflectance. \\
+The formula in Figure \ref*{fig:light_visual_system} shows the problem from a mathematical
+perspective. \(L\) represents luminance, \(I\) and \(R\) illuminance and reflectance,
+respectively. It is simply impossible to solve for \(I\) and \(R\), when only \(L\) is
+been measured, since for every \(R\) there is an \(I\) to produce the measured \(L\)
+\parencite{adelson2000}. \\ 
+However, the human visual system can solve this problem as seen in Figure 
+\ref*{fig:light_visual_system}. It is also processing only luminance, yet it is able to
+generate the perception of reflectance, which is referred to as lightness.
 
 \begin{figure}[H]
 \centering
 \centering
-\includegraphics[width=0.9\textwidth]{media/lightness_color.png}
+\includegraphics[width=0.9\textwidth]{media/lightness_color_formula.png}
 \begin{minipage}{0.8\textwidth}
-\caption{a) Relationship between illuminance, reflectance and luminance. Luminance is the
-result of illuminance and reflectance. b) The human visual system processes luminance
-through an unidentified mechanism, represented by P which is determining lightness and
-brightness perception ψ of the surface.}
-\label{fig:figure1}
+\caption[Relationship between illuminance, reflectance and luminance]{a) Relationship
+between illuminance, reflectance and luminance. Luminance is the result of illuminance and
+reflectance. b) The human visual system processes luminance through an unidentified
+mechanism, represented by P which is determining lightness and brightness perception ψ of
+the surface.}
+\label{fig:light_visual_system}
 \end{minipage}
 \end{figure}
 
 Next to lightness, humans also perceive brightness, which is the perception of luminance,
-seen in Figure \ref*{fig:figure1} b). Unlike reflectance, luminance is directly available
+seen in Figure \ref*{fig:light_visual_system} b). Unlike reflectance, luminance is directly available
 at the retinal image and brightness could in principle be derived from the retinal
 measurement. However, the visual system does not only consider the corresponding
 luminances when evaluating the perceived lightness and brightness of image areas, it also
@@ -76,10 +74,10 @@ research and will be discussed further in the following sections.
     \centering
     \includegraphics[width=0.7\textwidth]{media/bright_lightness.png}
     \begin{minipage}{0.8\textwidth}
-    \caption{Lightness and brightness are distinguishable when illumination is visible.
-    \emph{"The walls of the house appear uniformly white — a lightness judgment — yet are
-    brighter in some places than others — a brightness judgment"}. Quote and picture from
-    Kingdom \parencite*{Kingdom2014}.}
+    \caption[Lightness and brightness are distinguishable]{Lightness and brightness are
+    distinguishable when illumination is visible. \emph{"The walls of the house appear
+    uniformly white — a lightness judgment — yet are brighter in some places than others —
+    a brightness judgment"}. Quote and picture from Kingdom \parencite*{Kingdom2014}.}
     \label{fig:figure2}
     \end{minipage}
 \end{figure}
@@ -122,8 +120,8 @@ surfaces and is largely unaffected by the illumination.
     \centering
     \includegraphics[width=0.85\textwidth]{media/checkershadow_double_full_.png}
     \begin{minipage}{0.8\textwidth}
-    \caption{(a) The Checkerboard shadow illusion image; (b) proof image
-    \parencite{adelson1995checkershadow}.}
+    \caption[Checkerboard shadow illusion]{(a) The Checkerboard shadow illusion image; (b)
+    proof image \parencite{adelson1995checkershadow}.}
     \label{fig:figure3}
     \end{minipage}
 \end{figure}
@@ -165,17 +163,17 @@ with a human observer experiencing the right patch to be darker.
     \centering
     \includegraphics[width=0.75\textwidth]{media/centre_surround.png}
     \begin{minipage}{0.8\textwidth}
-    \caption{Above: The simultaneous contrast effect. Two identical grey patches appear to
-    be different in brightness, depending on their surrounding. The left patch appears
-    brighter than the right patch. \\ Below: The principle of center surround fields. The
-    blocks on each side represent neurons, where the surrounding blocks subtract and the
-    center block adds their responses to the fourth block underneath. On the left side the
-    center response is medium (light red), corresponding to the left patch in the
-    illusion, while the surround response is low, corresponding to the surrounding dark
-    gray in the illusion. The summation results in a medium response. On the right side
-    the center is the same, but the surround response is higher (dark red) and so the
-    summation in the fourth block is lower. The responses of the patches in the illusion
-    depends on their surrounding.}
+    \caption[The principle of center surround fields]{Above: The simultaneous contrast
+    effect. Two identical grey patches appear to be different in brightness, depending on
+    their surrounding. The left patch appears brighter than the right patch. \\ Below: The
+    principle of center surround fields. The blocks on each side represent neurons, where
+    the surrounding blocks subtract and the center block adds their responses to the
+    fourth block underneath. On the left side the center response is medium (light red),
+    corresponding to the left patch in the illusion, while the surround response is low,
+    corresponding to the surrounding dark gray in the illusion. The summation results in a
+    medium response. On the right side the center is the same, but the surround response
+    is higher (dark red) and so the summation in the fourth block is lower. The responses
+    of the patches in the illusion depends on their surrounding.}
     \label{fig:figure4}
     \end{minipage}
 \end{figure}
@@ -212,9 +210,8 @@ filter is comparing every pixel with its direct neighboring pixels.
     \centering
     \includegraphics[width=0.7\linewidth]{media/convolution.png}
     \begin{minipage}{0.8\textwidth}
-    \caption{
-    Applying a convolution on an image is a common approach to model center surround
-    fields. 
+    \caption[Applying a convolution on an image]{ Applying a convolution on an image is a
+    common approach to model center surround fields. 
     % The convolution works by sliding a filter over an image and computing
     % the sum of element-wise multiplications to generate the output pixel. 
     Every pixel of the input image is multiplied with the center value of the filter (8)
@@ -252,15 +249,15 @@ of the illusion.
     \centering
     \includegraphics[width=0.7\linewidth]{media/whites_effect_model.png}
     \begin{minipage}{0.8\textwidth}
-    \caption{In White's Effect (left) the shift in perceived brightness is in the opposite
-    direction compared to brightness contrast. Both patches are identical, but the left
-    patch on the black bar appears to be brighter than the patch on the white bar, even if
-    it shares most of its edges with white surfaces \parencite{Whit1979}. The diagram on
-    the right shows the processed White's Effect illusion by the ODOG model. The dashed
-    line refers to the luminance profile across the horizontal center of the illusion. The
-    solid line represents the models output along the same line. The red markers indicate
-    that the models output is in accord with the human perception
-    \parencite{Blakeslee1999}.}
+    \caption[Models response to White's Effect]{In White's Effect (left) the shift in
+    perceived brightness is in the opposite direction compared to brightness contrast.
+    Both patches are identical, but the left patch on the black bar appears to be brighter
+    than the patch on the white bar, even if it shares most of its edges with white
+    surfaces \parencite{Whit1979}. The diagram on the right shows the processed White's
+    Effect illusion by the ODOG model. The dashed line refers to the luminance profile
+    across the horizontal center of the illusion. The solid line represents the models
+    output along the same line. The red markers indicate that the models output is in
+    accord with the human perception \parencite{Blakeslee1999}.}
     \label{fig:figure6}
     \end{minipage}
 \end{figure}
@@ -291,190 +288,539 @@ ODOG and BIWaM are oriented spatial-filtering models, highlighting the importanc
 low-level vision. Both models process an input image using filters, which are inspired by
 the center surround fields. As shown in Figure \ref{fig:figure7}, their processing begins
 with the decomposition of the input image (Step 1), using spatially scaled and oriented
-filters. Each filter results in an channel that captures different orientations and
+filters. Each filter results in an channel that extracts specific orientations and
 spatial frequencies of the image. The channels are then processed (Step 2) by reweighting
 and normalization, each model has it own strategy. In the final step (Step 3) all outputs
 are merged to reconstruct the output image.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\linewidth]{media/model_structure.png}
-    \begin{minipage}{0.8\textwidth}
-    \caption{Structural overview of ODOG and BIWaM models, three steps to analyze}
+    \includegraphics[width=\linewidth]{media/methodology/models_overview.png}
+    \begin{minipage}{0.7\textwidth}
+    \caption[Structural overview of models]{Structural overview of ODOG and BIWaM models, three steps to analyze}
     \label{fig:figure7}
     \end{minipage}
 \end{figure}
 
 The ODOG model uses a filterbank consisting of 42 filters in seven different scales and
-six different orientations. These filters are applied on the input image by a convolution
-for every filter, to create the frequency specific and oriented channels. The outputs of
-the filters within the same orientation are summed, with weights that are determined by
-the spatial frequency. Lower frequencies receive smaller weights than higher frequencies,
-similar to the contrast sensitivity of the visual system. These responses are normalized
-by their root-mean-square energy, which is computed across all pixels and summed to
-yield the model output. As a consequence of the response normalization, orientations with
-little energy in the input image will have a proportionally larger influence on the model
-output \parencite{Betz2015}.
+six different orientations. Each filter convolves with the input image, extracting
+frequency-specific and orientation-specific information. The outputs of the filters within
+the same orientation are summed, with weights that are determined by the spatial
+frequency. Lower frequencies receive smaller weights than higher frequencies, similar to
+the contrast sensitivity of the visual system. These responses are normalized by their
+root-mean-square energy, which is computed across all pixels and summed to yield the model
+output. As a consequence of the response normalization, orientations with little energy in
+the input image will have a proportionally larger influence on the model output
+\parencite{Betz2015}.
 
-For the decomposition in the BIWaM model, a wavelet transformation is used instead of a
-filterbank. This wavelet transformation also performs convolutions with different filters.
-Only three orientations are used, but a wider range of scales from 1 cpd (cycles per
-degree) to the Nyquist frequency. It iterates through the decomposition recursively,
-downsampling the image at each iteration but using the same filter. Therefore, it
-generates channels for different filter-to-image scales in each iteration, similar to the
-ODOG model. After decomposition, all channels are reweighted by a function that is also
-inspired by the contrast sensitivity function of the visual system. For normalization,
-they use factors generated for specific areas of the image, resulting in a local
-normalization. This could be a main difference between the models \parencite{Betz2015}. In
-the final step, the BIWaM model merges the filter outputs to generate the output image.
+In contrast, the BIWaM model uses wavelet transformation for decomposition instead of a
+filterbank. This wavelet transformation also performs convolutions with filters of
+different scales and orientations. It iterates through the decomposition 7 times
+recursively, downscaling the image at each iteration but using the same spatially sized
+filter. Therefore, it generates channels for different filter-to-image scales in each
+iteration, similar to the filterbank in the ODOG model. The BIWaM model reweights channels
+also based on a CSF-inspired function. The normalization across channels is localized,
+using factors specific to contrast for every image region. This could be a main difference
+between the models \parencite{Betz2015}. In the final step, the BIWaM model merges the
+filter outputs to generate the output image.
+
+\textcolor{red}{(TODO: write more about the models)}
 
 
-ODOG and BIWAM may seem different at first glance, because of their distinct processing
-techniques. But some processes are similar to those in the other model. What exactly is
-making a difference? Is the decomposition and reconstruction interchangeably in both
-models, does the processing on the channels make the difference? These questions arise
-when dealing with both models and are the focus of this thesis.  The aim is to explore
-whether they process identical information as a subset of the other, or if they address
-distinct concepts.
+At first glance, ODOG and BIWaM may seem conceptually distinct due to their differing
+implementations. ODOG utilizes a filterbank, global CSF weighting, and separate
+normalization across channels, while BIWaM employs wavelet decomposition, integrated
+CSF-weighting, and localized normalization. However, both models share
+a common conceptual framework: decomposition into orientation- and scale-specific
+channels, weighting by the CSF, and interactions between channels. This raises the central
+question of this thesis: Are ODOG and BIWaM fundamentally distinct models, or are they
+merely different implementations of the same underlying conceptual idea? 
 
+
+% Spatial filtering models are providing insights in the field of vision research and come
+% with advantages and disadvantages. On some images the choice of the model can make a
+% significant difference(TODO: Example). But these differences in model behavior are not
+% trivial. To better understand the models algorithmic and the resulting effects, i plan to
+% study two the models ODOG and BIWaM, which are known for... (TODO: why these models?). 
 \newpage
 
 
 \section{Methodology}
 
-\subsection*{Preperations}
-Spatial filtering models are providing insights in the field of vision research and come
-with advantages and disadvantages. On some images the choice of the model can make a big
-difference(TODO: Example). But these differences in model behavior are not trivial. To
-better understand differences of models algorithmic and the resulting effects, i plan to
-study two models ODOG and BIWaM, which are known for... (TODO: why these models?). Due to
-the complexity of the models, my goal is to catalog parameters and link them to specific
-behaviors for each of the models, then discuss similarities and differences. The
-methodological approach to the goal is to define parameters and test their effect on model
-response by modifying them. After that i should be able to align the models, by modifying
-the correct parameters and find an similar behavior, if not possible, the parts of the
-models i couldn't access are causing the differences. As there are a lot of tests i will
-run on different stages of the models, the thesis will not have a classic methods and
-results structure, instead there will be five chapters which built up on each other. Each
-chapter will have some methods and end in some results. To provide a red line through
-these chapters, i will show an overview at the beginning of each chapter.
+The aim is to determine whether these models are fundamentally distinct or represent
+different implementations of the same conceptual idea. To achieve this, I will
+systematically explore the conceptually corresponding parameters and mechanism of each
+model for each stage (decomposition, weighting and normalization). For example in the
+decomposition stage both models implement a corresponding parameter to define the scales
+of the filters used to extract frequencies (ODOG: 'scales'; BIWaM: 'levels'). The plan is to
+change the corresponding parameters at implementation level, to see if the resulting
+changes in the model prediction correspond. If the models really only are different
+implementations of the same idea a change of the corresponding parameters in both models
+should result in similar changes in the predictions.
 
-% Some models implement explicit calculations (e.g. BIWaM calculates surround contrast),
-% while others stay with known psychophysical findings. This can lead to unexpected
-% behavior, especially if the model runs on extrema.
+Given the iterative nature of this methodology, the thesis will not follow a traditional
+methods-and-results structure. Instead, it is organized into five interdependent sections,
+each correlating with a distinct processing stage of the models.
 
-\subsection*{Preperations}
-
-\begin{itemize}
-    \item To modify the models, it was necessary to have access to their source codes
-    \item for ODOG use the available Multyscale library
-    \item to reduce errors from different technologies: reimplementation of biwam in Python
-    \item Recreate input stimuli from the paper using the Stimupy library.
-    \item Evaluate robustness of the BIWaM model to input variations.
-    \item Understanding the algorithms and parameter definition.
-    \item Illusions tested: Two versions of SBC, two versions of White’s effect, and the Todorovic illusion.
-    \item Recreation of published predictions for BIWaM
-\end{itemize}
-
-\subsection*{Modification of parameters}
-BIWaM:
-\begin{itemize} 
-    \item CSF parameters
-    \item Decomposition levels, window size, peak s.f.
-    \item A big window size does effectively end up in global normalization (?)
-    \item Wavelet filter functions (?)
-\end{itemize}
-ODOG:
-\begin{itemize} 
-    \item Number of scales and orientations 
-    \item Filter functions
-    \item Down- and upsampling (?)
-\end{itemize}
-
-At the end there could be a list which lists every parameter of every model and shows the
-effect of it.
-
-\subsection*{Comparative testing}
-\begin{itemize}
-    \item Applied both models to recreated stimuli and analyze outputs.
-    \item Adjusted parameters to align both models for direct comparison.
-\end{itemize}
-
-\newpage
-
-For each step shown in Figure \ref{fig:figure7}, the focus will be on the structural
-differences between the models. Adjusting the ODOG model to align it more closely with the
-BIWaM model, will reveal their importance step by step, shown in the diagram of Figure
-\ref{fig:figure8}. The plan is to modify the source code for each part listed in the table
-of Figure \ref*{fig:figure8} and to conclude every change by running the models with the
-modification on a set of illusions and comparing the outputs quantitatively.
+At the beginning of each section, an overview similar to Figure \ref{fig:figure8} will
+provide a roadmap for the chapter, ensuring a clear narrative. Results from all sections
+will be linked in the Discussion chapter, where I will comprehensively compare the models
+and draw conclusions about their behavioral and structural relations. 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\linewidth]{media/table_differences.png}
+    \includegraphics[width=\linewidth]{media/methodology/methodology_overview.png}
     \begin{minipage}{0.8\textwidth}
-    \caption{The table shows the already known differences between the models for each of
-    the steps (1-3). The diagram below shows how i plan to narrow down the search for
-    differences. By adjusting the models for each of the steps shown and concluding the
-    impact by comparing the output, I wat to isolate the differences with the most
-    impact.}
+    \caption{Methodology overview of analysis}
     \label{fig:figure8}
     \end{minipage}
 \end{figure}
 
+By systematically testing conceptually corresponding parameters across the models and
+stages, this methodology establishes a framework for exploring whether ODOG and BIWaM are
+distinct models or different implementations of the same conceptual idea.
+
+
+\subsection{Stimuli}
+Both models are tested on a set of seven different stimuli. The variety in stimuli lowers
+the risk of drawing conclusions based on specific features of a single stimulus and
+provides a robust baseline for comparison in the next chapters. The stimuli used are: Two
+versions of Whites effect, two versions of Simultaneous Brightness Contrast (SBC),
+Checkerboard illusion, Circular Whites effect and the Dungeon illusion. The Dungeon
+illusion is specifically chosen, because the authors of the BIWaM model mentioned, that
+their model will account for it, while it was previously unexplained
+\parencite{Otazu2008}. A List of all stimuli is shown in Figure \ref{fig:figure9}. \\
+\textcolor{red}{(TODO: tell more about the stimuli, why these?)}
+
+\textcolor{red}{(TODO preparation for section 2.2: which stimuli are new to the
+models, which have been shown to be not working for a model?)}
+
+This baseline focuses on the qualitative patterns of the models' responses rather than a
+quantitative statement, as the models differ in architecture and output units. Running
+identical stimuli through both models, which has not been done before, serves as the first
+step in understanding their behavior. 
+
+As expected, the predictions from the two models vary, reflecting their distinct designs.
+The following chapters will analyze and compare their outcomes on this shared baseline.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{media/methodology/stimuli.png}
+    \begin{minipage}{\textwidth}
+    \caption[Overview 7 different stimuli]{The seven stimuli used to test the models are
+    shown here, each displayed in greyscale and in the coolwarm colormap. Each stimulus
+    consists of a black-and-white configuration where two targets, physically identical in
+    their gray value, are embedded. The greyscale presentation generates a perceptual
+    illusion in which one target appears brighter than the other due to its surroundings.
+    However, the coolwarm colormap confirms the physical similarity of the targets by
+    visually representing their identical intermediate gray value.}
+    \label{fig:figure9}
+    \end{minipage}
+\end{figure}
 
 \newpage
 
-\section{Results} 
-\begin{enumerate}
-    \item \textbf{Recreation of published predictions for BIWaM}:
-    \begin{itemize}
-        \item Avilable Matlab implementation is another version (CIWaM).
-        \item Bad reproducibility led to extensive research and parameter exploration.
-        \item DWT function is highly optimized and undocumented -> took a lot of time to understand.
-        \item Python reimplementation behaves same as Matlab version (CIWaM).
-        \item Using CIWaM\_per\_channel function from CIWaM code as BIWaM representative.
-        \item \textbf{Predictions}
-            \begin{itemize} 
-                \item Available BIWaM predicts brightness illusions qualitatively, but not quantitatively.
-                \item Model outputs diverged from published results despite wide parameter adjustments.
-                \item This led to the question of whether the available model is different, or whether the parameters are different, or whether the re-created stimuli (as input) are different.
-                \item Tests indicated high robustness of BIWaM to input variations, suggesting that output differences are coming from differences in implementation rather than the re-created stimuli.
-            \end{itemize}
-    \end{itemize}
+\subsection{Model responses}
+% To create an initial baseline of the model responses, where I can refer to later, when I
+% make changes in the models implementations, I ran both models on the set of stimuli shown
+% in Figure \ref{fig:figure9}. However, as described in the previous section, some of the
+% stimuli chosen for this thesis are not tested by the authors of the models or it has been
+% shown that the a model can not account for some of the stimuli. To provide a better
+% overview, i will not show all of the model responses here, but i will put them in the
+% appendix. \\
+% I tested both models on all seven stimuli, but will show only the meaningful cases in the
+% chapters to keep the thesis as clear as possible. The complete set will be provided in the
+% appendix.
 
-    \item \textbf{Findings on parameter effects}:
-    \begin{itemize}
-        \item Adjusting wavelet levels influenced decomposition depth but did not resolve discrepancies.
-        \item Modifying filters results in ...
-        \item Modifying window size results in ...
-        \item Modifying peak s.f. results in ...
-    \end{itemize}
+% I will show how the models respond to the seven test stimuli from Figure
+% \ref{fig:figure9}. To provide a clearer overview i will 
 
-    \item \textbf{Findings on comparative testing}:
-    \begin{itemize}
-        \item On the exact same stimuli the original models ....
-        \item With aligned parameters both models behave ...
-    \end{itemize}
+Show all stimuli responses and then show that for some of them the ODOG model is not
+working (as expected). But it was also not shown yet how they respond to the exact same
+stimuli next to each other. Then make a selection where both are predicting the illusion
+(Whites, SBC) and make this the baseline, consider mentioning that these cover
+assimilation and contrast illusions. The other stimuli are showing how the BIWaM is the
+better model. But the other stimuli will be usefully later when I modify the models to
+test them again and see if the BIWaM still holds these predictions.
 
-    \item \textbf{Potential differences between models}:
-    \begin{itemize}
-        \item Studying the models showed that the following features of the models are causing differences
-    \end{itemize}
-\end{enumerate}
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.8\textwidth}
+        \includegraphics[width=\textwidth]{media/model_responses/odog_white_thick.png}
+        \caption{Put your sub-caption here}
+    \end{subfigure}
+    \begin{subfigure}{0.8\textwidth}
+        \includegraphics[width=\textwidth]{media/model_responses/odog_sbc_small.png}
+        \caption{Put your sub-caption here}
+    \end{subfigure}
+    \begin{subfigure}{0.8\textwidth}
+        \includegraphics[width=\textwidth]{media/model_responses/odog_checkerboard.png}
+        \caption{Put your sub-caption here}
+    \end{subfigure}
+    \begin{subfigure}{0.8\textwidth}
+        \includegraphics[width=\textwidth]{media/model_responses/odog_white_circular.png}
+        \caption{Put your sub-caption here}
+    \end{subfigure}
+    \caption{Add your own figures before compiling}
+    \label{fig:foobar}
+\end{figure}
+
+% \begin{figure}[H]
+%     \centering
+%     \begin{subfigure}{0.7\textwidth}
+%         \includegraphics[width=\textwidth]{media/model_responses/both_white_thick.png}
+%         \caption{Put your sub-caption here}
+%     \end{subfigure}
+%     \begin{subfigure}{0.7\textwidth}
+%         \includegraphics[width=\textwidth]{media/model_responses/both_white_thin.png}
+%         \caption{Put your sub-caption here}
+%     \end{subfigure}
+%     \begin{subfigure}{0.7\textwidth}
+%         \includegraphics[width=\textwidth]{media/model_responses/both_sbc_small.png}
+%         \caption{Put your sub-caption here}
+%     \end{subfigure}
+%     \begin{subfigure}{0.7\textwidth}
+%         \includegraphics[width=\textwidth]{media/model_responses/both_sbc_large.png}
+%         \caption{Put your sub-caption here}
+%     \end{subfigure}
+%     \caption{Add your own figures before compiling}
+%     \label{fig:foobar}
+% \end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.7\textwidth}
+        \includegraphics[width=\textwidth]{media/model_responses/both_white_circular.png}
+        \caption{Put your sub-caption here}
+    \end{subfigure}
+    \begin{subfigure}{0.7\textwidth}
+        \includegraphics[width=\textwidth]{media/model_responses/both_checkerboard.png}
+        \caption{Put your sub-caption here}
+    \end{subfigure}
+    \begin{subfigure}{0.7\textwidth}
+        \includegraphics[width=\textwidth]{media/model_responses/both_dungeon.png}
+        \caption{Put your sub-caption here}
+    \end{subfigure}
+\caption{Add your own figures before compiling}
+    \label{fig:foobar}
+\end{figure}
+
+
+% \begin{figure}
+%     \centering
+%     \subfloat[fig 1]{\includegraphics[width=\linewidth]{media/model_responses/odog_white_thick.png.png}}\\ 
+%     \subfloat[fig 2]{\includegraphics[width=\linewidth]{media/model_responses/odog_white_thin.png.png}}\\
+%     \subfloat[fig 3]{\includegraphics[width=\linewidth]{media/model_responses/odog_sbc_small.png.png}}\\
+%     \subfloat[fig 4]{\includegraphics[width=\linewidth]{media/model_responses/odog_sbc_large.png.png}}\\
+%     \caption{Add your own figures before compiling}
+%     \label{some example}
+% \end{figure}
+
+% \begin{figure}
+%     \centering
+%     \subfloat[fig 5]{\includegraphics[width=\linewidth]{media/model_responses/odog_white_circular.png.png}}\\
+%     \subfloat[fig 6]{\includegraphics[width=\linewidth]{media/model_responses/odog_checkerboard.png.png}}\\ 
+%     \subfloat[fig 7]{\includegraphics[width=\linewidth]{media/model_responses/odog_dungeon.png.png}}\\ 
+%     \caption{Add your own figures before compiling}
+%     \label{some example}
+% \end{figure}
+
+\textcolor{red}{Compare the model results across 7 stimuli: Where
+do the models make different predictions?}
+
+
+\subsection{Preparations and Tools}
+\textcolor{red}{TODO: write out the bullet points}
+\begin{itemize}
+    \item To modify the models, it was necessary to have access to their source codes
+    \item for ODOG i used the Multyscale library (version 0.2)
+    \item for BIWaM i used a python reimplementation of the available Matlab code (which
+    is tested to work the same, see appendix)
+    \item I recreated the input stimuli using the Stimupy package (version 1.1.2).
+    \item For the thesis i used Python 3.12.7,  Jupyter Client 8.6.2, Matplotlib 3.9.1,
+    Numpy 2.1.3, Scipy 1.14.0
+\end{itemize}
+
+
+
+\newpage
+%_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+\section{Robustness}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{media/methodology/robustness_overview.png}
+    \begin{minipage}{0.8\textwidth}
+    \caption{Methodology overview of robustness testing}
+    \label{fig:figure10}
+    \end{minipage}
+\end{figure}
+In the Methodology section \textcolor{red}{referece} a baseline condition was established,
+where the results reflected the interplay between the specific stimulus and the model with
+its set parameters. Here, I aimed to determine whether this baseline condition is specific
+to the exact interplay of these factors or if it can be generalized. Before changing
+parameters in the next chapters, I want to ensure that the patterns of the model responses
+on the stimuli are robust and can serve as a reliable comparison point.
+
+To evaluate robustness, I applied both ODOG and BIWaM to a set of test stimuli that
+underwent controlled, reasonably modifications. These modifications included: Brightness of
+target patches, brightness of background, size of image content, size of target patches.
+
+By observing the output patterns under these controlled changes, I aimed to answer two key
+questions: 
+\begin{itemize}
+    \item What are the overall patterns of the models for the 7 test stimuli?
+    \item Does the output changes in predictable ways?
+\end{itemize}
+
+\textcolor{red}{TODO: go through robustness tests, explain what i did, show the plots and
+point out the predictable behavior.}
+
+The robustness observed in both models provides a solid foundation for parameter tuning.
+Since the outputs are predictable and generalizable under reasonably changes to the input
+images, I am confident that future changes in the response pattern compared to the tested
+baseline can be meaningfully attributed to parameter adjustments.
+
+\newpage
+%_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+\section{Decomposition parameters}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{media/methodology/decomposition_overview.png}
+    \begin{minipage}{0.8\textwidth}
+    \caption{Methodology overview of filter testing}
+    \label{fig:figure11}
+    \end{minipage}
+\end{figure}
+Previously, we established a baseline of the ODOG and BIWaM responses under their default
+configurations. Building on this foundation, we now analyze their correlating parameters
+in the decomposition stage to identify how changes affect model predictions compared to
+the baseline.\\
+\textcolor{red}{TODO: introduction into model mechanics and the concrete parameters}
+\textbf{Parameters tested} \\
+ODOG:
+\begin{itemize} 
+    \item Orientations: ODOG uses oriented filter spread across 0-180 degrees.
+    The original model has 7 orientations.
+    \item Scales: The filter bank’s scales define the amount of extracted
+    spatial frequencies. The original model has 6 scales.
+\end{itemize}
+
+BIWaM:
+\begin{itemize} 
+    \item Wavelet Levels: The depth of the wavelet decomposition defines the
+    amount of extracted spatial frequencies.
+\end{itemize}
+
+\textcolor{red}{TODO: go through parameter tests, show the effects}
+
+\textcolor{red}{TODO: show that on few scales the models diverge, come to the hypothesis 
+that the residula image accounts for that}
+
+\textcolor{red}{TODO: outro is that we have a new baseline with aligned decomposition stage}
+
+To ensure a fair comparison between the models in the next section:
+\begin{itemize} 
+    \item ODOG and BIWaM will be tested using same number of orientations and scales.
+    \item BIWaM will be evaluated without the residual image.
+\end{itemize}
+
+\newpage
+%_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+\section{Aligned models}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{media/methodology/aligned_overview.png}
+    \begin{minipage}{0.8\textwidth}
+    \caption{Methodology overview of testing aligned models}
+    \label{fig:figure12}
+    \end{minipage}
+\end{figure}
+
+To compare ODOG and BIWaM in a fair setting, I evaluated both models on all seven test
+stimuli with aligned decomposition stage as established in the previous section. The
+parameters were set as follows: \\
+ODOG:
+\begin{itemize} 
+    \item 7 scales
+    \item 3 orientations
+\end{itemize}
+BIWaM:
+\begin{itemize} 
+    \item 7 wavelet levels
+    \item No residual image
+\end{itemize}
+
+Each of the seven test stimulus was processed through both models with the aligned
+parameters. The outputs were analyzed for changes in the response pattern, sensitivity to
+features of the stimuli (e.g. edges, brightness) and the prediction of the illusion.
+
+\textcolor{red}{TODO: go through tests on aligned models, show the effects of the
+alignment and outline that the aligned models are getting closer.}
+
+This comparison demonstrates that the decomposition stage of the models, when aligned,
+exhibit similar overall behavior while retaining distinct characteristics based on the
+following stages (weighting and normalization). These findings establish a baseline for
+further alignments.
+
+\newpage
+%_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+\section{CSF weighting}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{media/methodology/csf_overview.png}
+    \begin{minipage}{0.8\textwidth}
+    \caption{Methodology overview of CSF testing}
+    \label{fig:figure13}
+    \end{minipage}
+\end{figure}
+
+With the models aligned at the decomposition stage, the next step involves analyzing their
+weighting mechanisms for frequency channels. Both models incorporate mechanisms to weight
+spatial frequencies, inspired by the characteristics of the Contrast Sensitivity Function
+(CSF) in human vision and can be accessed in the source code.\\
+\textbf{Parameters tested} \\
+ODOG:
+\begin{itemize} 
+    \item Slope in Weighting Step: This parameter defines the slope of a linear function
+    around 1, where lower frequencies are attenuated (factor < 1), and higher frequencies
+    are enhanced (factor > 1). The weighting follows a pattern similar to the CSF, since
+    the scales are spaced logarithmically and therefore the linear function effectively is
+    the positive side of a gaussian.
+\end{itemize}
+BIWaM:
+\begin{itemize} 
+    \item Peak\_SF: This parameter shifts the peak of the CSF function along the x-axis.
+    The CSF is modeled using two Gaussians, allowing the model to enhance lower or higher
+    frequencies based on the value of Peak\_SF.
+\end{itemize}
+
+\textcolor{red}{TODO: go through both tests on aligned models, show the effects of the
+different weightings.}
+
+\newpage
+%_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+\section{Spatial interaction}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{media/methodology/spatial_interaction_overview.png}
+    \begin{minipage}{0.8\textwidth}
+    \caption{Methodology overview of testing models without spatial interaction}
+    \label{fig:figure14}
+    \end{minipage}
+\end{figure}
+
+The final analysis focuses on the spatial interaction mechanisms of the models,
+implemented through normalization processes. To evaluate the importance of normalization,
+the models were tested with this feature disabled. To confirm the role of normalization,
+the models were also tested with different CSF weightings as used in the previous section.
+This helped determine whether CSF weighting alone could account for the models’ behavior
+in the absence of normalization.
+
+ODOG:
+\begin{itemize} 
+    \item The normalization step was skipped entirely.
+\end{itemize}
+BIWaM:
+\begin{itemize} 
+    \item The relative contrast was set to 1, effectively disabling normalization.
+\end{itemize}
+
+\textcolor{red}{TODO: go through the tests on aligned models without normalization, show
+the effects of it and then go through CSF test without normalization again.}
+
+This analysis underscores the critical role of normalization in brightness prediction. It
+also highlights the limitations of frequency weighting alone, emphasizing the need for
+both (if previous section also shows need for CSF) mechanisms to achieve robust and
+realistic model behavior.
+
+
+
+% For each step shown in Figure \ref{fig:figure7}, the focus will be on the structural
+% differences between the models. Adjusting the ODOG model to align it more closely with the
+% BIWaM model, will reveal their importance step by step, shown in the diagram of Figure
+% \ref{fig:figure14}. The plan is to modify the source code for each part listed in the table
+% of Figure \ref*{fig:figure14} and to conclude every change by running the models with the
+% modification on a set of illusions and comparing the outputs quantitatively.
+
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=\linewidth]{media/table_differences.png}
+%     \begin{minipage}{0.8\textwidth}
+%     \caption{The table shows the already known differences between the models for each of
+%     the steps (1-3). The diagram below shows how i plan to narrow down the search for
+%     differences. By adjusting the models for each of the steps shown and concluding the
+%     impact by comparing the output, I wat to isolate the differences with the most
+%     impact.}
+%     \label{fig:figure14}
+%     \end{minipage}
+% \end{figure}
+
+
+\newpage
+
+% \section{Results} 
+% \begin{enumerate}
+%     \item \textbf{Recreation of published predictions for BIWaM}:
+%     \begin{itemize}
+%         \item Avilable Matlab implementation is another version (CIWaM).
+%         \item Bad reproducibility led to extensive research and parameter exploration.
+%         \item DWT function is highly optimized and undocumented -> took a lot of time to understand.
+%         \item Python reimplementation behaves same as Matlab version (CIWaM).
+%         \item Using CIWaM\_per\_channel function from CIWaM code as BIWaM representative.
+%         \item \textbf{Predictions}
+%             \begin{itemize} 
+%                 \item Available BIWaM predicts brightness illusions qualitatively, but not quantitatively.
+%                 \item Model outputs diverged from published results despite wide parameter adjustments.
+%                 \item This led to the question of whether the available model is different, or whether the parameters are different, or whether the re-created stimuli (as input) are different.
+%                 \item Tests indicated high robustness of BIWaM to input variations, suggesting that output differences are coming from differences in implementation rather than the re-created stimuli.
+%             \end{itemize}
+%     \end{itemize}
+
+%     \item \textbf{Findings on parameter effects}:
+%     \begin{itemize}
+%         \item Adjusting wavelet levels influenced decomposition depth but did not resolve discrepancies.
+%         \item Modifying filters results in ...
+%         \item Modifying window size results in ...
+%         \item Modifying peak s.f. results in ...
+%     \end{itemize}
+
+%     \item \textbf{Findings on comparative testing}:
+%     \begin{itemize}
+%         \item On the exact same stimuli the original models ....
+%         \item With aligned parameters both models behave ...
+%     \end{itemize}
+
+%     \item \textbf{Potential differences between models}:
+%     \begin{itemize}
+%         \item Studying the models showed that the following features of the models are causing differences
+%     \end{itemize}
+% \end{enumerate}
 
 \newpage
 
 \section{Discussion} 
 \begin{enumerate}
     \item \textbf{Linking differences in structure with results in behavior}
+    \item ODOG is literally a Fourier decomposition. It gets a base frequency components
+    and then its harmonics as the filters are logarithmic spaced. The magnitude of every
+    component gets modified by CSF(slope)
+    \item Resolution of image effects the models. link to hendrik
+    \item Over-/Undershooting, log-gabor filter as better filter for both models. 
     \item \textbf{Insights into decomposition}:
     \begin{itemize}
-        \item Information loss through downsampling does not appear to cause output differences.
+        \item Information loss through downsampling is compensated due to residual image.
     \end{itemize}
+    \item Speed of models
 \end{enumerate}
 
-
+\newpage
+\listoffigures
 
 \newpage
 \nocite{Adelson1996}
